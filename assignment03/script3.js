@@ -9,3 +9,15 @@
 //  # # # #
 // # # # #
 //  # # # #
+
+for (let i = 0; i < 8; i++) {
+    let line = "";
+    for(let l = 0; l < 8; l++) {
+        if ((i + l) % 2 === 0) {
+            line += "#";
+        } else {
+            line += " ";
+        }
+    }
+    console.log(line);
+}
